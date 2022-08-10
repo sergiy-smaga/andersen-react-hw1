@@ -1,0 +1,33 @@
+.form {
+  border: 2px solid grey;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+.input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.button {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: coral;
+}
+.textarea {
+  padding: 5px;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 10px;
+}
